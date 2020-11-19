@@ -1,15 +1,5 @@
 package de.tubs.bau.irmb.observer.model;
 
-public class TemperatureSensor extends Subject {
+public class TemperatureSensor {
 
-    private double temperature;
-
-    public void setTemperature(double temperature) {
-        this.temperature = temperature;
-        notifyObservers();
-    }
-
-    public double getTemperature() {
-        return temperature;
-    }
 }
